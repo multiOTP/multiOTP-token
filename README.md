@@ -4,4 +4,6 @@ multiOTP token is a Capacitor/VueJS/Vuetify based open source OTP generator with
 * Android app is available on Google Play here: https://play.google.com/store/apps/details?id=com.multiotp.token
 * iOS app is under review and will be soon available on the Apple App Store
 <br />
-<i>Source files are currently a little bit beautified in order to be published here soon ;-).</i>
+Push notification can be sent by multiOTP open source using the multiOTP gateway service, an open source gateway available here: https://github.com/multiOTP/multiOTP-gateway-service
+<br /><br />
+<i>Source files for the token are currently a little bit beautified in order to be published here by the end of January 2026.</i>
