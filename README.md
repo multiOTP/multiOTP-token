@@ -13,6 +13,9 @@ Current build: 1.17.0 (2026-02-05)
 
 # Notification services
 
+## URL of your push server
+Adapt the `/src/config.ts` file and set the FQDN of your default push server
+
 ## Google services (for Android notifications)
 Put Google services configuration file (google-services.json) here : `/android/app/`
 
