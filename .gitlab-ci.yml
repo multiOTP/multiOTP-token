@@ -1,0 +1,27 @@
+# Global configuration
+stages:
+  - lint
+  - build
+
+eslint:
+  stage: lint
+  image: node
+  script:
+    - node --version
+    - pwd
+    - npm install --progress=false
+    - rm -rf .eslintcache node_modules/.cache
+    - npm run lint
+
+build:
+  image: node
+  stage: build
+  script:
+    - node --version
+    - pwd
+    - npm install --progress=false
+    - npm run build
+  artifacts:
+    expire_in: 1 week
+    paths:
+      - src/

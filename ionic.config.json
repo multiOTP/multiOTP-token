@@ -1,0 +1,7 @@
+{
+  "name": "multiotp-token",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}

@@ -9,7 +9,7 @@ Push notification can be sent by multiOTP open source using the multiOTP gateway
 (c) 2025-2026 SysCo systemes de communication sa  
 https://www.multiotp.net/
 
-Current build: 1.17.0 (2026-02-05)
+Current build: 1.18.0 (2026-04-04)
 
 # Notification services
 
@@ -35,3 +35,9 @@ Configure your Apple developer account and your Xcode in order to use the Apple 
 * ionic cap copy
 * ionic cap sync ios
 * ionic cap open ios
+
+# CHANGE LOG OF RELEASED VERSIONS
+
+## 2026-04-04 1.18.0
+* ENH: First public release of the source code
+* ENH: biometric authentication support
